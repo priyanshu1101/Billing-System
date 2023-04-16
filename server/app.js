@@ -5,7 +5,7 @@ import dataRoutes from "./route/dataRoutes.js";
 import cors from "cors";
 const app = express();
 const PORT = 5000;
-const CONNECTION_URL = "mongodb+srv://priyanshu1101:priyanshu1101@cluster0.hbtofp2.mongodb.net/Project_1";
+const CONNECTION_URL = "mongodb+srv://priyanshu1101:priyanshu1101@cluster0.bhvsw.mongodb.net/Billing_System";
 
 app.use(bodyParser.json({limit: "30mb" , extended : true}));
 app.use(bodyParser.urlencoded({limit: "30mb" , extended : true}));
